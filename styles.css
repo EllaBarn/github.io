@@ -1,0 +1,127 @@
+body{
+    background-color: white;
+}
+
+.celebracion{
+	text-align:center;
+}
+.upperimage{
+    background-image: url('main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    display: flex;
+  
+}
+
+.last{
+    background-image: url('neand.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    color:red;
+  
+}
+.last__title {
+   text-indent: 55px;
+
+	
+}
+
+.last_img {
+    
+    display:flex;
+    justify-content:center;
+
+
+}
+
+
+
+.header{
+    color:rgb(194, 21, 21);
+    font-size: 60px;
+    text-align: center;
+   
+    
+}
+@keyframes header_anim {
+  from {
+    transform: translateY(-120%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.header__title {
+  transform: translateY(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: #a71919;
+  text-shadow: 2px 2px 4px white;
+  align-self: center;
+  margin-top: 10px;
+}
+.celebracion p{
+    color: rgb(12, 2, 2);
+    font-size: 35px;
+    
+}
+
+.cartochka{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:aliceblue;
+    padding: 15px;
+    font-size: 25px;
+}
+.cartochka img{
+    height: 550px;
+    border-radius: 15px;
+}
+
+.cartochka2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 550px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:aliceblue;
+    padding: 15px;
+    font-size: 25px;
+}
+.cartochka2 img{
+    height: 550px;
+    border-radius: 15px;
+}
+.textu{
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+}
+
+.texta{
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+}
+
+.footer{
+	background-color:orange;
+        width:100%;
+	height:55px;
+	color:red;
+
+
+}
+
