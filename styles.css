@@ -3,16 +3,20 @@ body{
 }
 
 .celebracion{
+	display:flex;
+	justify-self:center;
 	text-align:center;
 }
 .upperimage{
-    background-image: url('main.jpg');
+     background-image: url('main.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 750px;
+    max-width: 100%;
+    height: 700px;
     display: flex;
+    color:red;
+
   
 }
 
@@ -21,12 +25,236 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
     height: 500px;
     display: flex;
     color:red;
   
 }
+.last__title {
+   justify-content:center;
+
+
+	
+}
+
+.last_img {
+    
+   background-image: url('my.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   width: auto;
+    height: 500px;
+    display: flex;
+   
+	
+
+
+}
+
+
+
+.header{
+    color:rgb(194, 21, 21);
+    font-size: 50px;
+    text-align: center;
+   
+    
+}
+@keyframes header_anim {
+  from {
+    transform: translateY(-120%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.header__title {
+  transform: translateY(0);
+  animation-name: header_anim;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  text-transform: uppercase;
+  color: #a71919;
+  text-shadow: 2px 2px 4px white;
+  align-self: center;
+  margin-top: 10px;
+}
+.celebracion p{
+    color: rgb(12, 2, 2);
+    font-size: 35px;
+    
+}
+
+.cartochka{
+    display: grid;
+    justify-self:center;
+    grid-template-columns: 1fr 2fr;
+    height: 550px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:aliceblue;
+    padding: 15px;
+    font-size: 25px;
+}
+.cartochka img{
+    height: 550px;
+    border-radius: 15px;
+}
+
+.cartochka2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 550px;
+    justify-self:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:aliceblue;
+    padding: 15px ;
+    font-size: 25px;
+}
+.cartochka2 img{
+    height: 550px;
+    border-radius: 15px;
+}
+.textu{
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+}
+
+.texta{
+    text-align: center;
+    align-self: center;
+    padding: 15px;
+}
+
+.footer{
+	background-color:orange;
+        width:100%;
+	height:55px;
+	color:red;
+
+
+}
+
+@media screen and (max-width:600px){
+
+	.upperimage{
+    
+    		max-width: 100%;
+    		max-height: 320px;
+		display:flex;
+		justify-items:center;
+
+    		
+}
+
+	.last__title {
+   	justify-content:center;
+	font-size:23px;
+
+
+	
+}
+
+
+
+	.last{
+        max-width: 100%;
+    	height: 250px;
+    	display: flex;
+    	color:red;
+  
+}
+	.header{
+    	color:rgb(194, 21, 21);
+    	font-size: 15px;
+   	 text-align: center;
+   
+    
+}
+	.celebracion p{
+    		color: rgb(12, 2, 2);
+   	 	font-size: 18px;
+		margin-left: 5px;
+    		margin-right: 5px;
+		height:auto;
+		display: flex;
+		max-width: 320px;
+		justify-items:center;
+
+    
+}
+
+	.cartochka{
+    		display: block;    		
+    		height:auto;
+    		margin-left: 5px;
+    		margin-right: 5px;
+    		background-color:aliceblue;
+    		padding: 12px;
+    		font-size: 18px;
+		margin-bottom:15px;
+
+}
+
+	.cartochka2{
+    	 	display:block;    	 	
+    		height:auto;
+    		margin-left: 5px;
+    		margin-right: 5px;
+    		background-color:aliceblue;
+    		padding: 12px;
+    		font-size: 18px;
+		border-color:red;
+		margin-bottom:15px;
+
+}
+	.cartochka img{
+    		max-width: 320px;
+		height:auto;
+		
+
+    		border-radius: 15px;
+	}
+
+	.cartochka2 img{
+    		max-width: 320px;
+		height:auto;
+
+    		border-radius: 15px;
+	}
+
+	.textu{
+         text-align: center;
+         max-width: 320px;
+	height:auto;
+         padding: 3px;
+}
+
+	.texta{
+    	   text-align: center;       
+           padding: 3px;
+	   max-width: 320px;
+	   height:auto;
+}
+
+	.last_img {
+    
+           max-width:100%;
+    	   height: 200px;
+    	  
+
+
+
+
+}
+
+
+}
+
 .last__title {
    text-indent: 55px;
 
@@ -124,4 +352,5 @@ body{
 
 
 }
+
 
