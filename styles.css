@@ -44,7 +44,7 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   width: auto;
+   	width: auto;
     height: 500px;
     display: flex;
    
@@ -143,8 +143,8 @@ body{
 
 	.upperimage{
     
-    		max-width: 100%;
-    		max-height: 320px;
+    	max-width: 100%;
+    	max-height: 320px;
 		display:flex;
 		justify-items:center;
 
@@ -152,8 +152,8 @@ body{
 }
 
 	.last__title {
-   	justify-content:center;
-	font-size:23px;
+   	   justify-content:center;
+	   font-size:23px;
 
 
 	
@@ -171,15 +171,15 @@ body{
 	.header{
     	color:rgb(194, 21, 21);
     	font-size: 15px;
-   	 text-align: center;
+   	    text-align: center;
    
     
 }
 	.celebracion p{
-    		color: rgb(12, 2, 2);
+    	color: rgb(12, 2, 2);
    	 	font-size: 18px;
 		margin-left: 5px;
-    		margin-right: 5px;
+    	margin-right: 5px;
 		height:auto;
 		display: flex;
 		max-width: 320px;
@@ -189,56 +189,56 @@ body{
 }
 
 	.cartochka{
-    		display: block;    		
-    		height:auto;
-    		margin-left: 5px;
-    		margin-right: 5px;
-    		background-color:aliceblue;
-    		padding: 12px;
-    		font-size: 18px;
+    	display: block;    		
+    	height:auto;
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	background-color:aliceblue;
+    	padding: 12px;
+    	font-size: 18px;
 		margin-bottom:15px;
 
 }
 
 	.cartochka2{
-    	 	display:block;    	 	
-    		height:auto;
-    		margin-left: 5px;
-    		margin-right: 5px;
-    		background-color:aliceblue;
-    		padding: 12px;
-    		font-size: 18px;
+    	 display:block;    	 	
+    	height:auto;
+    	margin-left: 5px;
+    	margin-right: 5px;
+    	background-color:aliceblue;
+    	padding: 12px;
+    	font-size: 18px;
 		border-color:red;
 		margin-bottom:15px;
 
 }
 	.cartochka img{
-    		max-width: 320px;
+    	max-width: 320px;
 		height:auto;
-		
+		border-radius: 15px;
 
-    		border-radius: 15px;
+    		
 	}
 
 	.cartochka2 img{
-    		max-width: 320px;
+    	max-width: 320px;
 		height:auto;
 
-    		border-radius: 15px;
+    	border-radius: 15px;
 	}
 
 	.textu{
          text-align: center;
          max-width: 320px;
-	height:auto;
+	     height:auto;
          padding: 3px;
 }
 
 	.texta{
-    	   text-align: center;       
-           padding: 3px;
-	   max-width: 320px;
-	   height:auto;
+    	text-align: center;       
+        padding: 3px;
+	    max-width: 320px;
+	    height:auto;
 }
 
 	.last_img {
@@ -352,5 +352,6 @@ body{
 
 
 }
+
 
 
